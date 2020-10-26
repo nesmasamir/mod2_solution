@@ -17,6 +17,16 @@ body
 
 }
 
+/***** styling nav */
+.logo
+{
+    font-size: 250%;
+    font-weight: 700;
+    color:#545250 ;
+    background-color:#94908d ;
+    padding: 10px;
+}
+
 
 /* stylying the title******************/
  h1
@@ -46,8 +56,8 @@ section
     font-size: 125%;
     font-weight: 400;
     color: #403d3b;
-    margin-top: 100px;
-    padding-bottom: 110px;
+    margin-top: 90px;
+    padding-bottom: 90px;
     overflow: auto;
 }
 
@@ -96,7 +106,7 @@ footer
     width: 100%;
     padding: 10px;
     color: #f0f0f0;
-    margin-top: 60px;
+    margin-top: 50px;
     
 }
   
