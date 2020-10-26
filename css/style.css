@@ -1,0 +1,144 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    background-color: #f0f0f0;
+
+    position: relative;
+    
+
+}
+
+
+/* stylying the title******************/
+ h1
+{
+    text-align: center;
+    color: #545250;
+    padding-top: 30px;
+    font-size: 175%;
+    font-weight: 600;
+    width: 40%;
+    margin: auto;
+
+}
+
+.titleline
+{
+    width: 20%;
+    margin: auto;
+    border-bottom: 4px solid #716f6d;
+}
+
+
+/*stylying the grig cards ****************************/
+section
+{
+   
+    font-size: 125%;
+    font-weight: 400;
+    color: #403d3b;
+    margin-top: 100px;
+    padding-bottom: 110px;
+    overflow: auto;
+}
+
+
+.cards
+{
+
+    padding: 20px;
+}
+
+.cards :hover
+{
+    background-color: #94908d;
+    color:#f0f0f0 ;
+    cursor: pointer;
+}
+
+.menueCard
+{
+    border: solid #f0f0f0 1px ;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.menueCard p
+{
+    padding: 30px 10px;
+}
+
+
+.menueTitle
+{
+    border : solid #adaaa7 2px;
+    border-radius: 3px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 0px 5px;
+}
+
+/* styling the footer*******/
+footer
+{
+    background-color:#403d3b;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: #f0f0f0;
+    margin-top: 60px;
+    
+}
+  
+  
+  
+
+
+/* media queries*******/
+
+@media( min-width:992px){
+.col-lg-4{
+
+    width: 33%;
+    float: left;
+}
+
+
+
+}
+
+    
+@media (min-width:768px) and (max-width:991px){
+
+    
+    .col-md-6 {
+
+        width: 50%;
+        float: left; 
+    }
+    .col-md-12{
+        width: 100%;  
+      
+    }
+
+ 
+    
+   
+    }
+
+        
+    
+
+
+
+
